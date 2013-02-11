@@ -1,0 +1,57 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+  <h3>To bill a credit card, simply fill out this form:</h3>
+  <form>
+    <label>Bill Description:</label><br>
+    <input type="text" id="desc"/><br>
+    <div class="desc_error"></div>
+
+    <label>Amount:</label><br>
+    <input type="text" id="amount" /><br>
+    <div class="amount_error"></div>
+
+    <br><b>Creditcard info</b><br>
+    <label>Creditcard Number:</label><br>
+    <input type="text" id="cardnumber" /><br>
+    <div class="cardnumber_error"></div>
+
+    <label>CCV Number:</label><br>
+    <input type="text" id="ccv" /><br>
+    <div class="ccv_error"></div> 
+
+   	<label>Expiration Date:</label> <br>
+   	<input type="text" id="month" value = "MM"/>
+   	<input type="text" id="year" value = "YY"/><br>
+   	<div class="month_error"></div>
+   	<div class="year_error"></div> <br>
+
+    <label>Card holder's Name:</label><br>  
+    <input type="text" id="first_name" value = "first name"/>
+    <input type="text" id="last_name" value = "last name" /><br>
+
+    <label>Billing Address:</label> <br>
+   	<input type="text" id="street" value = "street address"/><br>
+   	<input type="text" id="city" value = "city"/><br>
+   	<input type="text" id="state" value = "state"/><br>
+   	<input type="text" id="zipcode" value = "zipcode"/><br>
+
+   	<label>Billing Options:</label><br> 
+   	<input name="billing" type="radio"	value="once"/>One-time 
+   	<input name="billing" type="radio"	value="monthly"/>Monthly 
+   	<input name="billing" type="radio"	value="anually"/>Anually<br>
+
+   	<br><label>Would you like to have e-mail confirmation?</label><br>
+   	<input type = "text" id = "email" value="Optional"><br>
+    <input type="submit" />
+	</form>
+
+
+
+  </form>
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  font-family: Verdana;
+  font-size: 12px;
+  text-align: center
+}
+
+div {
+	color: red;
+	font-size: 12px;
+}
+
+input#month, input#year{
+	width: 25px;
+}
+
+input#first_name, input#last_name{
+	width: 60px;
+}
+
+input#email {
+	width: 200px
+}
